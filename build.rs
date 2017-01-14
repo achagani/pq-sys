@@ -7,7 +7,7 @@ use std::process::Command;
 use std::env;
 
 fn main() {
-    let link_flag = "pq";
+    let link_flag = "libpq";
 
     if let Ok(lib_dir) = env::var("PQ_LIB_DIR") {
         println!("cargo:rustc-link-search=native={}", lib_dir);
