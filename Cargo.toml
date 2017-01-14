@@ -5,7 +5,7 @@ authors = ["Sean Griffin <sean@seantheprogrammer.com>"]
 description = "Auto-generated rust bindings for libpq"
 license = "MIT"
 repository = "https://github.com/sgrif/pq-sys"
-links = "pq"
+links = "libpq"
 build = "build.rs"
 
 [lib]
